@@ -1,3 +1,4 @@
+#Find longest sequence of zeros in binary representation of an integer
 def solution(N):
    b=bin(N)
    l=list(b)
@@ -19,3 +20,5 @@ def solution(N):
    return l
 
 print(solution(32))
+#another example
+print(solution (79))
