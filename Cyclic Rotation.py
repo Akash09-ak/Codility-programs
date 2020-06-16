@@ -11,10 +11,4 @@ def solution(A, K):
     return A
 
 
-
-
-A = [3, 8, 9, 7, 6]
-#A = []
-K = 3
-#K = 0
-print(solution(A,K))
+print(solution([7,5,6,1,8,3],3))
